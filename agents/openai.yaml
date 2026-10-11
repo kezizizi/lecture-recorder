@@ -1,0 +1,3 @@
+display_name: 'Lecture Recorder'
+short_description: 'Process lecture/meeting recordings into notes with speaker-diarized transcript, slides, math derivations'
+default_prompt: 'Process this recording with speaker diarization. Run scripts/transcribe_diarize.py (whole-file first, slice only if >8500s), verify with references/verify_diarized.py, then extract slide content, merge with the transcript, extract mathematical derivations, and output a structured study note. Always attach the 说话人对照表 and never guess speaker identities.'

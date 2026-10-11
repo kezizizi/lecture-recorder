@@ -1,0 +1,35 @@
+# 音频 / 视频原件与中间产物
+*.mp3
+*.wav
+*.m4a
+*.flac
+*.mp4
+*.mkv
+_audio/
+_transcripts/
+_images/
+_cache/
+_可读稿.md
+*_可读稿.md
+
+# 转写产物
+逐字稿.json
+逐字稿.md
+说话人对照表.md
+_log.txt
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+
+# 系统 / 编辑器
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# 本次发布的临时清单（不入库）
+FILES.txt

@@ -1,0 +1,7 @@
+# transcribe_diarize.py 的依赖（本机已全部装在系统 Python 3.9，无需安装）
+# 解释器：python3
+requests>=2.28      # 上传 ASR（其余全部走标准库）
+# 外部依赖：ffmpeg / ffprobe（本机已在 PATH，或 winget 目录下自动探测）
+#
+# 仅「本地 whisper 兜底路径」需要（正常情况下用不到）：
+# openai-whisper
